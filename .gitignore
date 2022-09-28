@@ -1,0 +1,6 @@
+/node_modules
+/package.json
+/package-lock.json
+/src
+/js/app.js
+/css/style.css
