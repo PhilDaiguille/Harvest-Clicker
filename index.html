@@ -1,74 +1,95 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🥔 Harvest Clicker 🧑‍🌾</title>
-    <meta name="description" content="Harvest Clicker">
-    <link rel="stylesheet" href="./css/style.min.css" />
-    <!-- <link rel="stylesheet" href="./css/style.css" />-->
+    <title> Harvest Clicker 🧑‍🌾</title>
+    <meta name="description" content="Harvest Clicker" />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
     <link rel="manifest" href="./assets/site.webmanifest" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>Harvest Clicker</h1>
+        <h1>Harvest Clicker</h1>
     </header>
     <main>
-      <p class="reset">♻️ Reset</p>
-      <div class="centre">
-        <figure>
-          <h2>🥔 Nombre de patates 🥔</h2>
-          <p>0</p>
-          <input type="button" value="click" />
-          <p class="farm"></p>
-          <div class="barre">
-            <div id="chargement"></div>
-          </div>
-        </figure>
+        <p class="patate">🥔</p>
+        <p class="reset">♻️ Reset</p>
+        <div class="centre">
+            <figure>
+                <h2>🥔 Nombre de patates 🥔</h2>
+                <p>0</p>
+                <input type="button" value="click" />
+                <p class="farm"></p>
+                <div class="barre">
+                    <div id="chargement"></div>
+                </div>
+            </figure>
 
-        <figure>
-          <section>
-            <ul>
-              <li class="ico">🧑‍🌾</li>
-              <li>0</li>
-              <li>Fermier</li>
-              <li><input type="submit" value="Acheter" /></li>
-              <li></li>
-            </ul>
-          </section>
-          <section>
-            <ul>
-              <li class="ico">🚜</li>
-              <li>0</li>
-              <li>Tracteur</li>
-              <li><input type="submit" value="Acheter" /></li>
-              <li></li>
-            </ul>
-          </section>
-        </figure>
-      </div>
+            <figure>
+                <section>
+                    <ul>
+                        <li class="ico" alt="fermier">🧑‍🌾</li>
+                        <li>0</li>
+                        <li>Fermier</li>
+                        <li><input type="submit" value="Acheter" /></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="ico" alt="Tracteur">🚜</li>
+                        <li>0</li>
+                        <li>Tracteur</li>
+                        <li><input type="submit" value="Acheter" /></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="ico">
+                            <img src="./assets/moulin.png" alt="moulin" />
+                        </li>
+                        <li>0</li>
+                        <li>Moulin</li>
+                        <li><input type="submit" value="Acheter" /></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="ico">
+                            <img src="./assets/grange.png" alt="grange" />
+                        </li>
+                        <li>0</li>
+                        <li>Grange</li>
+                        <li><input type="submit" value="Acheter" /></li>
+                        <li></li>
+                    </ul>
+                </section>
+            </figure>
+        </div>
 
-      <section class="upgrade">
-        <h2>Améliorations</h2>
-        <ul>
-          <li>⚙️ 1000$</li>
-          <li>❔</li>
-          <li>❔</li>
-          <li>❔</li>
-          <li>❔</li>
-          <li>❔</li>
-        </ul>
-      </section>
+        <section class="upgrade">
+            <h2>Améliorations</h2>
+            <ul>
+                <li><img src="./assets/gear.png" alt="engrenage" /> 2500$ <br> Effet X2</li>
+                <li><img src="./assets/engrais.png" alt="engrais" /> 15000$ <br> Effet X5</li>
+                <li><img src="./assets/ordi.png" alt="ordinateur" /> 150000 $ <br> Effet X10 </li>
+            </ul>
+        </section>
     </main>
     <footer>
-      <p>&copy; - PhilDaiguille</p>
+        <p>&copy; - PhilDaiguille</p>
     </footer>
     <script src="./js/app.min.js"></script>
-    <!-- <script src="./js/app.js"></script> -->
-  </body>
+</body>
+
 </html>
